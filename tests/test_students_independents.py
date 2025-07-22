@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 with open("tests/students.json", encoding="utf-8") as f:
     students = json.load(f)
 
+logger.info("🏗️ Starting independent student test flow")
 @pytest.mark.parametrize("student_data", students)
 def test_independent_student_flow(student_data):
     """
