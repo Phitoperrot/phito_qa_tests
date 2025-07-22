@@ -1,0 +1,5 @@
+[
+    { "first_name": "Alice", "last_name": "Brown", "dob": "1985-02-20", "email": "alice@example.com" },
+    { "first_name": "Bob", "last_name": "Smith", "dob": "1990-07-12", "email": "bob@example.com" },
+    { "first_name": "Carol", "last_name": "Johnson", "dob": "1978-11-30", "email": "carol@example.com" }
+]
